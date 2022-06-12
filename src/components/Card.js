@@ -1,4 +1,5 @@
 import { StyledCard } from './styles/Card.styled';
+import { Test } from './styles/Card.styled';
 
 export default function Card({ item: { id, title, body, image } }) {
   return (
@@ -6,6 +7,9 @@ export default function Card({ item: { id, title, body, image } }) {
       <div>
         <h2>{title}</h2>
         <p>{body}</p>
+        <Test>
+          <h2>Test</h2>
+        </Test>
       </div>
       <div>
         <img src={`./images/${image}`} alt="" />

@@ -22,3 +22,9 @@ export const StyledCard = styled.div`
     flex-direction: column;
   }
 `;
+
+export const Test = styled.div`
+  h2 {
+    text-align: center;
+  }
+`;

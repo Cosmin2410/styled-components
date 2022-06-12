@@ -39,3 +39,4 @@ function App() {
 export default App;
 
 // npm i styled-components
+// npm i react-icons
